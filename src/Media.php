@@ -1,11 +1,11 @@
-<?php
+<?php 
+
 class Media {
-public function calcularMedia($notas) {
-// ERRO proposital: soma mal implementada
-$soma = 0;
-foreach ($notas as $nota) {
-$soma += $nota;
-}
-return $soma / count($notas);
-}
+    public function calcularMedia($notas) {
+        $soma = 0; // Certifique-se que mudou para 0
+        foreach ($notas as $nota) {
+            $soma += $nota;
+        }
+        return $soma / count($notas);
+    }
 }
