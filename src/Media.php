@@ -2,7 +2,7 @@
 class Media {
 public function calcularMedia($notas) {
 // ERRO proposital: soma mal implementada
-$soma = 1;
+$soma = 0;
 foreach ($notas as $nota) {
 $soma += $nota;
 }
